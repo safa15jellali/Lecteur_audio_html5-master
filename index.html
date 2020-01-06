@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<title>Titre de la page</title>
+	<link rel="stylesheet" href="style/lecteur.css">
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+				<h2>Mon lecteur audio</h2>
+				<div id="lecteur-audio">
+					<audio class="audio" id="audio1" preload="auto">
+						<source src="audio/mp3/DJ_Spooky_-_Check_Your_Math.mp3" type="audio/mpeg">
+						<source src="audio/ogg/DJ_Spooky_-_Check_Your_Math.ogg" type="audio/ogg">
+						<source src="audio/wav/DJ_Spooky_-_Check_Your_Math.wav" type="audio/wav">
+					</audio>
+					<img src="audio/pochette/DJ_Spooky_-_Check_Your_Math.jpg" alt="Titre de l'album" title="Titre du son" class="pochette audio1" />
+					<audio class="audio" id="audio2" preload="auto">
+						<source src="audio/mp3/Lauren_Piper_-_Ryan.mp3" type="audio/mpeg">
+						<source src="audio/ogg/Lauren_Piper_-_Ryan.ogg" type="audio/ogg">
+						<source src="audio/wav/Lauren_Piper_-_Ryan.wav" type="audio/wav">
+					</audio>
+					<img src="audio/pochette/Lauren_Piper_-_Ryan.jpg" alt="Titre de l'album 2" title="Titre du son 2" class="pochette audio2" />
+				</div>
+				<div class="clearfix"></div>
+</body>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jqueryui.js"></script>
+<script src="js/lecteur.js"></script>
+<script src="js/script.js"></script>
+</html>
